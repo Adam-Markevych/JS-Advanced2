@@ -1,0 +1,82 @@
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.block__form{
+    width: 35%;
+}
+.block__table{
+    width: 60%;
+}
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+}
+
+.btn-add,.btn-save-edit{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.btn-add{
+    background-color: rgb(16, 230, 16);
+}
+.btn-save-edit{
+    background-color: rgb(47, 0, 255);
+}
+.btn-edit,.btn-delete{
+    width: 50px;
+    height: 20px;
+}
+.btn-delete{
+    background-color: rgb(255, 0, 0);
+}
+.btn-edit{
+    background-color: rgb(255, 255, 0);
+}
+.green{
+    border-color: rgb(0, 255, 0);
+}
+.red{
+    border-color: rgb(255, 0, 0);
+}
